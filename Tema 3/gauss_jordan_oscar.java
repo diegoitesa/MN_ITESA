@@ -5,7 +5,7 @@ public class GaussJordan {
 
         double[][] matriz = {
             {1, 2, 3, 10},
-            {4, 5, 6, 15},
+            {6, 8, 6, 15},
             {7, 8, 9, 21}
         };
 
