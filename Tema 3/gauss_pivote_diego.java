@@ -41,25 +41,19 @@ public class gauss_pivote
     {
         // inicializar la matriz en la primer esquina
         int pivP = 0;
-        double pivote = m[pivP][pivP];
 
-        while ( pivP != m[0].length)
+        while ( pivP < m[0].length)
         {
-            pivote = m[pivP][pivP];
-            
             // convertimos el pivote en 1
             for (int i = 0; i < m[0].length; i++)
-                m[pivP][i] /= pivote;
+                m[pivP][i] /= m[pivP][pivP];
             
-            
-
-            for (int i = pivP; i <= m[0].length; i++){
-                pivote = m[pivP][pivP] /= pivote;
-                for (int j = pivP + 1; j <= m[0].length; j++)
-                    m[j][i] += (-m[j][i]) * pivote;
+            // convertimos las filas debajo del pivote en 0
+            for (int i = pivP + 1; i < m[0].length; i++){
+                for (int j = 0; j < m[0].length; j++)
+                    m[i][j] += (-m[j][i]) * m[pivP][j];
             }
                 
-            
             pivP++;
         }
             
