@@ -24,6 +24,11 @@ public class gaus_pivote_brandon{
         System.out.println("Matriz inicial");
         mostrar(matriz);
 
+        gaussPivote(matriz);
+
+        System.out.println("Matriz después de aplicar el Métoto de Gauss Pivote: ");
+        mostrar(matriz);
+
 
     }
 
@@ -77,6 +82,27 @@ public class gaus_pivote_brandon{
             }
         }
     }
+public static void pivote(double[][] matriz, int columna) {
+        int n = matriz.length;
+        int filaMax = columna;
+
+        
+        for (int i = columna + 1; i < n; i++) {
+            if (Math.abs(matriz[i][columna]) > Math.abs(matriz[filaMax][columna])) {
+                filaMax = i;
+            }
+        }
+
+        
+        if (filaMax != columna) {
+            for (int j = 0; j < n + 1; j++) {
+                double temp = matriz[columna][j];
+                matriz[columna][j] = matriz[filaMax][j];
+                matriz[filaMax][j] = temp;
+            }
+        }
+    }
+
 
     
 }
