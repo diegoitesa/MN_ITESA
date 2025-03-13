@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class gauss_pivote
+public class GaussPivoteDiego
 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
@@ -42,6 +42,7 @@ public class gauss_pivote
         // inicializar la matriz en la primer esquina
         int pivP = 0;
 
+        // Ciclo para cubrir todos los pivotes de la matriz
         while ( pivP < m[0].length)
         {
             // convertimos el pivote en 1
