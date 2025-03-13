@@ -7,7 +7,9 @@ import java.util.Scanner;
  * y muestra la matriz original y la matriz transformada después de aplicar
  * el método de Gauss.
  * 
- * Autor: Oscar Aaron Delgadillo Fernandez
+ * @author Oscar Aaron Delgadillo Fernandez
+ * @version 1.0
+ * @since 2025-03-13
  */
 public class GaussPivoteOscar {
     
