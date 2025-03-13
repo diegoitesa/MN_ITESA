@@ -35,7 +35,7 @@ public class gaus_pivote_brandon{
 
             for (int i = 0; i < tamano; i++) {
                 for (int j = 0; j < tamano; j++) {
-                    matriz[i][j]=random.nextInt(10)+1;
+                    matriz[i][j]=random.nextInt(10);
                 }
             }
     }
@@ -46,12 +46,14 @@ public class gaus_pivote_brandon{
         int tamano = matriz.length;
         for (int i = 0; i < tamano; i++) {
                 for (int j = 0; j < tamano; j++) {
-                    System.out.print("[ " + matriz[i][j] + "]");
+                    System.out.print("[ " + String.format("%.2f", matriz[i][j]) + "] ");
 
                 }
             System.out.println("");
             }
 
     }
+
+    
 }
 
