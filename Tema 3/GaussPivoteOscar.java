@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class gauss_pivote_oscar {
+public class GaussPivoteOscar {
     public static void main(String[] args) {
         System.out.println("Programa de solución Gaussiana por pivote");
         System.out.println("Por: Oscar Aaron Delgadillo Fernandez");
