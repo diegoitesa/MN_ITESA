@@ -54,6 +54,30 @@ public class gaus_pivote_brandon{
 
     }
 
+    public static void gaussPivote(double[][] matriz) {
+        int n = matriz.length;
+
+        for (int pivote = 0; pivote < n; pivote++) {
+            
+            pivote(matriz, pivote);
+
+            double factor = matriz[pivote][pivote];
+
+           
+            for (int j = 0; j < n + 1; j++) {
+                matriz[pivote][j] /= factor;
+            }
+
+           
+            for (int i = pivote + 1; i < n; i++) {
+                double coef = matriz[i][pivote];
+                for (int j = 0; j < n + 1; j++) {
+                    matriz[i][j] -= coef * matriz[pivote][j];
+                }
+            }
+        }
+    }
+
     
 }
 
