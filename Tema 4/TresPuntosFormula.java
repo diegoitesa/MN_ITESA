@@ -2,8 +2,8 @@ public class TresPuntosFormula {
 
     // f(x)
     public static double f(double x) {
-        return x * x;
         if (x == 0) throw new ArithmeticException("División por cero en f(x)");
+        return 1 / x;
     }
 
     public static double formulaTresPuntos(double a, double b) {
@@ -17,8 +17,8 @@ public class TresPuntosFormula {
     }
 
     public static void main(String[] args) {
-        double a = 0;  // Límite inferior
-        double b = 2;  // Límite superior
+        double a = -1;  // Límite inferior
+        double b = 1;  // Límite superior
 
         double integral = formulaTresPuntos(a, b);
         System.out.printf("Resultado aproximado: %.4f%n", integral);
