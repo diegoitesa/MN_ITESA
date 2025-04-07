@@ -21,6 +21,6 @@ public class Simpson38 {
         double b = 3;  // Límite superior
 
         double integral = simpson38(a, b);
-        System.out.printf("Resultado aproximado: %.6f%n", integral);
+        System.out.printf("Resultado aproximado: %.4f%n", integral);
     }
 }
