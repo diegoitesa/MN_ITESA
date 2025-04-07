@@ -2,7 +2,7 @@ public class Simpson38 {
 
     // f(x):
     public static double f(double x) {
-        return Math.pow(x, 3) + 2 * Math.pow(x, 2);
+        return Math.cos(x);
     }
 
     public static double simpson38(double a, double b) {
@@ -18,9 +18,13 @@ public class Simpson38 {
 
     public static void main(String[] args) {
         double a = 0;  // Límite inferior
-        double b = 3;  // Límite superior
+        double b = 2;  // Límite superior
 
-        double integral = simpson38(a, b);
-        System.out.printf("Resultado aproximado: %.4f%n", integral);
+        if ((b - a) % 3 != 0) {
+            System.out.println("Error: El intervalo no es divisible en 3 subintervalos.");
+        } else {
+            double integral = simpson38(a, b);
+            System.out.printf("Resultado aproximado: %.4f%n", integral);
+        }
     }
 }
