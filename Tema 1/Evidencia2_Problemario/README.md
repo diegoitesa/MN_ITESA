@@ -10,6 +10,15 @@ Problemario con los ejercicios de los temas tratados en clase (errores, errores 
 
 - Diego Alonso Coronel Vargas
 - Oscar Aaron Delgadillo Fernández
-- Brandon García Ordaz- Diego Alonso Coronel Vargas
-- Oscar Aaron Delgadillo Fernández
-- Brandon García Ordaz2
+- Brandon García Ordaz
+
+# Documento
+
+- [Problemario](/Tema%201/Evidencia2_Problemario/T1%20-%20E2%20-%20Problemario.pdf)
+
+## Códigos
+
+### Diego Alonso Coronel Vargas
+
+- [Códigos de redondeo](/Tema%201/Evidencia2_Problemario/redondeo.py)
+    - [Ejecución](/Tema%201/Evidencia2_Problemario/ejecución_código_redondeo.png)
