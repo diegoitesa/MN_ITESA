@@ -22,3 +22,5 @@ Problemario con los ejercicios de los temas tratados en clase (errores, errores 
 
 - [Códigos de redondeo](/Tema%201/Evidencia2_Problemario/redondeo.py)
     - [Ejecución](/Tema%201/Evidencia2_Problemario/ejecución_código_redondeo.png)
+
+### Brandon García Ordaz
