@@ -1,6 +1,6 @@
 // EJERCICIO 1
 
-public class Extras {
+public class extras {
     public static void main(String[] args) {
         
         // Definición del capital prestado
