@@ -8,6 +8,6 @@
 ## Equipo
 
 - Diego Alonso Coronel Vargas
-    - [Exposición de Newton](/Tema%202/Evidencia2_Exposición/Presentación%20de%20Newton-Raphson.pdf)
+    - [Exposición de Newton](/Tema%202/Evidencia%201/Presentación%20de%20Newton-Raphson.pdf)
 - Oscar Aaron Delgadillo Fernández  
 - Brandon García Ordaz
