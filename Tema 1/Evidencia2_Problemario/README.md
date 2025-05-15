@@ -24,5 +24,5 @@ Problemario con los ejercicios de los temas tratados en clase (errores, errores 
     - [Ejecución](/Tema%201/Evidencia2_Problemario/ejecución_código_redondeo.png)
 
 ### Brandon García Ordaz
-- [Códigos extras](/Tema%201/Evidencia2_Problemario/extras.java)
+- [Códigos extras](/Tema%201/Evidencia2_Problemario/Extras.java)
     - [Ejecución](/Tema%201/Evidencia2_Problemario/ejecución_código_extra.png)
