@@ -26,3 +26,5 @@ Problemario con los ejercicios de los temas tratados en clase (errores, errores 
 ### Brandon García Ordaz
 - [Códigos extras](/Tema%201/Evidencia2_Problemario/Extras.java)
     - [Ejecución](/Tema%201/Evidencia2_Problemario/ejecución_código_extra.png)
+
+### Oscar Aaron Delgadillo Fernandez
