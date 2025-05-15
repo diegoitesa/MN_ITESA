@@ -6,6 +6,8 @@
 
 ## Actividad
 - [T2 ---  E2   -----  Problemario](/Tema%202/Evidencia%202/T2%20---%20%20E2%20%20%20-----%20%20Problemario.pdf)
+- [Métodos para encontrar raíces en Excel](/Tema%202/Evidencia%202/Métodos%20para%20encontrar%20raices.xlsx)
+- [Ejercicios extras del problemario en Excel](/Tema%202/Evidencia%202/Ejercicio%20extra%20-%20comparación%20de%20métodos.xlsx)
 
 
 ## Integrantes del github
