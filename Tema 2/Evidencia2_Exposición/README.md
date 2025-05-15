@@ -8,5 +8,5 @@ Presentaciones del Método de Newton-Raphson y Método de Bisección
 ## Equipo
 
 - Diego Alonso Coronel Vargas  
-- Oscar Aarón Delgadillo Fernández  
+- Oscar Aaron Delgadillo Fernández  
 - Brandon García Ordaz
