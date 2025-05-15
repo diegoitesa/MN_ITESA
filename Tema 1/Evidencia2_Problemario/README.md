@@ -27,4 +27,5 @@ Problemario con los ejercicios de los temas tratados en clase (errores, errores 
 - [Códigos extras](/Tema%201/Evidencia2_Problemario/Extras.java)
     - [Ejecución](/Tema%201/Evidencia2_Problemario/ejecución_código_extra.png)
 
-### Oscar Aaron Delgadillo Fernandez
+### Oscar Aaron Delgadillo Fernández
+- [Códigos de truncamiento](/Tema%201/Evidencia2_Problemario/truncamiento.py)
