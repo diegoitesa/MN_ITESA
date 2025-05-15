@@ -29,3 +29,4 @@ Problemario con los ejercicios de los temas tratados en clase (errores, errores 
 
 ### Oscar Aaron Delgadillo Fernández
 - [Códigos de truncamiento](/Tema%201/Evidencia2_Problemario/truncamiento.py)
+    - [Ejecución](/Tema%201/Evidencia2_Problemario/truncamiento.png)
