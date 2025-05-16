@@ -7,3 +7,6 @@
 ## Integrantes del github
 - Diego Alonso Coronel Vargas
     - [Evaluación escrita](/Tema%201/Evidencia%203/T1%20-%20E3%20-%20Eval%20Escrita.png)
+
+- Oscar Aaron Delgadillo Fernandez
+    - [Evaluación escrita](/Tema%201/Evidencia%203/T1%20-%20E3%20-%20Eval%20EscritaOs.pdf)
