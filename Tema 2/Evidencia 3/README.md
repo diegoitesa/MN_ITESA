@@ -7,3 +7,5 @@
 ## Integrantes del github
 - Diego Alonso Coronel Vargas
     - [T2   --   E3  --- Proyecto](/Tema%202/Evidencia%203/T2%20-%20E3%20-%20Proyecto%20diego.xlsx)
+- Oscar Aaron Delgadillo Fernandez
+    - [T2   --   E3  --- Proyecto](/Tema%202/Evidencia%203/Proyecto-OscarAaronDelgadilloFernandez%20(1).xlsx)
