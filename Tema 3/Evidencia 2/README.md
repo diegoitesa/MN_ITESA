@@ -20,3 +20,7 @@
 - Diego Alonso Coronel Vargas
     - [Código del método de Gauss-Jordan](/Tema%203/Evidencia%202/GaussJordanDiego.java)
     - [Código del método de Gauss con Pivote](/Tema%203/Evidencia%202/GaussPivoteDiego.java)
+
+- Oscar Aaron Delgadillo Fernandez
+    - [Código del método de Gauss-Jordan](/Tema%203/Evidencia%202/GaussJordanOscar.java)
+    - [Código del método de Gauss con Pivote](/Tema%203/Evidencia%202/GaussPivoteOscar.java)
