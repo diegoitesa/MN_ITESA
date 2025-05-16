@@ -31,3 +31,13 @@
 - Ese punto de intersección es la nueva suposición, y repites el proceso.
 
 🧠 Idea clave: Usa derivadas para “bajar por la pendiente” hasta llegar a la raíz.
+
+## Método de Bisección
+- Es un método para encontrar raíces de ecuaciones.
+- Empiezas con dos puntos donde el valor de la función cambia de signo (uno positivo y otro negativo).
+- Partes el intervalo justo a la mitad y obtienes un nuevo punto.
+- Evaluas la función en ese punto medio.
+- Si el valor no es cero, eliges el lado donde el signo sigue cambiando.
+- Repites el proceso reduciendo el intervalo cada vez más.
+
+🧠 Idea clave: Divide el intervalo en dos y busca la raíz en el lado donde hay un cambio de signo. Es lento pero siempre funciona si se cumple la condición inicial.
