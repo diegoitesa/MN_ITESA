@@ -15,3 +15,5 @@
     - [Video / Evaluación](/Tema%204/Evidencia%203/T4%20-%20%20%20E3%20%20%20--%20Programa-Evaluación.mp4)
 - Oscar Aaron Delgadillo Fernandez
     - [Video / Evaluación](/Tema%204/Evidencia%203/T4%20-%20%20%20E3%20%20%20--%20Programa%20-%20EvaluaciónO.mp4)
+- Brandon García Ordaz
+    - [Exento en esta actividad]
