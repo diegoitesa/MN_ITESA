@@ -10,3 +10,6 @@
 
 - Oscar Aaron Delgadillo Fernandez
     - [Evaluación escrita](/Tema%201/Evidencia%203/T1%20-%20E3%20-%20Eval%20EscritaOs.pdf)
+
+- Brandon García Ordaz
+    - [Evaluación escrita](/Tema%201/Evidencia%203/T1%20-%20E3%20-%20Eval%20EscritaBr.pdf)
