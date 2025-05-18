@@ -12,3 +12,4 @@
 - Oscar Aaron Delgadillo Fernández  
     - [Exposición de Bisección](/Tema%202/Evidencia%201/Presentación%20del%20Método%20de%20Bisección.pdf)
 - Brandon García Ordaz
+    - [Exposición de Bisección](/Tema%202/Evidencia%201/Presentación%20del%20Método%20de%20Bisección.pdf)
