@@ -27,4 +27,4 @@
 
 - Brandon García Ordaz
     - [Código del método de Gauss-Jordan](/Tema%203/Evidencia%202/GaussJordanBrandon.java)
-    - [Código del método de Gauss con Pivote](/Tema%203/Evidencia%202/GaussPivoteOscar.java)
+    - [Código del método de Gauss con Pivote](/Tema%203/Evidencia%202/GaussPivoteBrandon.java)
