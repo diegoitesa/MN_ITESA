@@ -15,3 +15,5 @@
     - [Código de la regla falsa](/Tema%202/Evidencia%202/Codigo_regla_falsa.py)
 - Oscar Aaron Delgadillo Fernandez
     - [Código de Bisección](/Tema%202/Evidencia%202/Codigo_biseccion.py)
+- Brandon García Ordaz
+    - [Código de Bisección](/Tema%202/Evidencia%202/Codigo_biseccion.py)
