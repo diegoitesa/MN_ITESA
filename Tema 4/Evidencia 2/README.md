@@ -13,3 +13,6 @@
 - Oscar Aaron Delgadillo Fernandez
     - [Código del trapecio simple](/Tema%204/Evidencia%202/TrapecioSimple1.java)
     - [Código del trapecio compuesto](/Tema%204/Evidencia%202/TrapecioCompuesto1.java)
+- Brandon García Ordaz
+    - [Código del trapecio simple](/Tema%204/Evidencia%202/Simpson13.java)
+    - [Código del trapecio compuesto](/Tema%204/Evidencia%202/Simpson38.java)
