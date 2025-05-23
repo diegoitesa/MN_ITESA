@@ -10,6 +10,6 @@
 - Diego Alonso Coronel Vargas
     - [Interpolación Lineal](../Evidencia%201/Interpolación%20lineal.pdf)
 - Oscar Aaron Delgadillo Fernandez
-   
+    - [Método de Correlación](/Tema%205/Evidencia%201/T5%20-%20%20E1%20%20-%20Slider-Expo.pdf)
 - Brandon García Ordaz
     
