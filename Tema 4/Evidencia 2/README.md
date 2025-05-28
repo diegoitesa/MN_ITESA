@@ -10,6 +10,7 @@
 ## Actividad de cada integrante del equipo
 - Diego Alonso Coronel Vargas
     - [Código del método de los Cinco Puntos](/Tema%204/Evidencia%202/cincoPuntos1.java)
+    - [Código del método de los Tres Puntos](./Tres_Puntos.java)
 - Oscar Aaron Delgadillo Fernandez
     - [Código del trapecio simple](/Tema%204/Evidencia%202/TrapecioSimple1.java)
     - [Código del trapecio compuesto](/Tema%204/Evidencia%202/TrapecioCompuesto1.java)
