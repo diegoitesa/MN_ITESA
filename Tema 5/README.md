@@ -6,8 +6,8 @@
 
 ## Actividades
 - [T5 - E3 - Programa ](/Tema%205/Evidencia3/)
-- [T5 - E2 - Problemario](/Tema%205/T5_Problemario_MN.pdf)
-- 
+- [T5 - E2 - Problemario](./Evidencia%202/)
+- [T5 - E3 - Programa](./Evidencia%203/)
 
 # Apuntes
 
