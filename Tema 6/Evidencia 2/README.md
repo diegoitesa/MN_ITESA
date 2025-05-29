@@ -113,9 +113,9 @@ El método de Euler es una técnica numérica sencilla y directa para resolver e
 ### Forma General
    -[Forma](/Tema%206/formaEuler.png)
 ### Formula
-    -[Formula](/Tema%206/formulaEuler.png)
+-[Formula](/Tema%206/formulaEuler.png)
 ### Codigo en Java
-    -[Codigo](/Tema%206/Evidencia%202/EulerODESolver.java)
+-[Codigo](/Tema%206/Evidencia%202/EulerODESolver.java)
 ### Pseudocodigo
 ```pascal
 Algoritmo Euler2EDOs
