@@ -18,9 +18,7 @@
 ### Error absoluto  
 - Es la diferencia entre el valor verdadero y el valor aproximado.  
 - Se calcula así:  
-  \[
-  \text{Error absoluto} = | \text{Valor verdadero} - \text{Valor aproximado} |
-  \]  
+  `Error absoluto = |Valor verdadero - Valor aproximado|`  
 - Nos dice **cuánto nos equivocamos en total**.  
 
 🧠 **Idea clave**: Es el tamaño del error en unidades reales.
@@ -30,9 +28,7 @@
 ### Error relativo  
 - Compara el error absoluto con el valor verdadero.  
 - Se calcula así:  
-  \[
-  \text{Error relativo} = \frac{\text{Error absoluto}}{|\text{Valor verdadero}|}
-  \]  
+  `Error relativo = Error absoluto / |Valor verdadero|`  
 - Se usa cuando queremos saber **qué tan grande es el error respecto al valor real**.  
 - A veces se multiplica por 100 para dar el **porcentaje de error relativo**.  
 
@@ -43,9 +39,7 @@
 ### Error porcentual  
 - Es el error relativo expresado en porcentaje.  
 - Se calcula así:  
-  \[
-  \text{Error porcentual} = \left( \frac{\text{Error absoluto}}{|\text{Valor verdadero}|} \right) \times 100\%
-  \]  
+  `Error porcentual = (Error absoluto / |Valor verdadero|) × 100%`  
 - Es más intuitivo porque nos dice **el error en porcentaje**, lo que ayuda a interpretarlo mejor.  
 
 🧠 **Idea clave**: Es el error relativo **convertido a porcentaje**.
@@ -66,3 +60,4 @@
 - No se puede evitar del todo, pero se puede controlar.  
 
 🧠 **Idea clave**: Es el error por **ajustar los números para que se vean “bonitos” o caben en la memoria**.
+
