@@ -59,3 +59,69 @@ Donde:
 ### 📚 Aplicaciones típicas
 - Modelado de sistemas físicos (movimiento, circuitos, reacciones químicas).
 - Simulación de procesos en tiempo real donde se busca precisión acumulada.
+
+---
+
+## Métodos de Un Solo Paso
+
+### 📌 ¿Qué son?
+
+Los métodos de un solo paso (o one-step methods) son técnicas numéricas que calculan la solución de una ecuación diferencial ordinaria (EDO) usando solo el punto actual y su derivada.  
+No dependen de múltiples puntos anteriores, lo que los hace simples pero menos precisos si se usa un paso grande.
+
+### 📐 Forma general
+
+Para una EDO de la forma:
+
+dy/dx = f(x, y), y(x₀) = y₀
+
+La forma general de un método de un solo paso es:
+
+yₙ₊₁ = yₙ + h · φ(xₙ, yₙ, h)
+
+Donde:
+
+- `h` es el tamaño del paso.
+- `φ` es una función que estima el cambio en `y` a partir de la derivada.
+
+---
+
+### 🔢 Métodos comunes
+
+#### ✅ Método de Euler (explícito)
+El más simple. Usa la pendiente en el punto actual para avanzar.
+
+yₙ₊₁ = yₙ + h · f(xₙ, yₙ)
+
+
+#### ✅ Método de Euler Mejorado (Heun)
+Promedia la pendiente en el punto actual y el siguiente estimado.
+
+k₁ = f(xₙ, yₙ)
+k₂ = f(xₙ + h, yₙ + h · k₁)
+yₙ₊₁ = yₙ + (h/2) · (k₁ + k₂)
+
+#### ✅ Método de Runge-Kutta de 4to orden (RK4)
+Muy preciso. Utiliza una combinación de varias pendientes.
+
+k₁ = f(xₙ, yₙ)
+k₂ = f(xₙ + h/2, yₙ + h·k₁/2)
+k₃ = f(xₙ + h/2, yₙ + h·k₂/2)
+k₄ = f(xₙ + h, yₙ + h·k₃)
+yₙ₊₁ = yₙ + (h/6) · (k₁ + 2·k₂ + 2·k₃ + k₄)
+
+---
+
+### 🧠 Ventajas
+- Simples de implementar.
+- Útiles para obtener valores iniciales para métodos de varios pasos.
+- No requieren almacenar mucha información previa.
+
+### ⚠️ Desventajas
+- Menor precisión comparado con métodos de varios pasos (con el mismo `h`).
+- Se necesita un paso pequeño para mayor exactitud, lo que implica más cálculos.
+
+### 📚 Aplicaciones típicas
+- Simulación de trayectorias en física.
+- Problemas de valor inicial sencillos.
+- Sistemas dinámicos con condiciones iniciales claras.
