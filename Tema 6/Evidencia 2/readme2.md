@@ -71,7 +71,8 @@ Proceso MetodoHeunSimple
     // Mostrar resultado
     Escribir "x:", x
     Escribir "y:", y
-    Esc
+    Escribir "Aproximación final de y en x =", x, ": ", y
+FinProceso
 ```
 ### 🧾 Código en Java
 
