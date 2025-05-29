@@ -5,9 +5,9 @@
     Aplica los métodos numéricos para resolver problemas científicos y de ingeniería utilizando la computadora.
 
 ## Actividades
-- [T2  --- E1  ---  Mapa Conceptual/presentación](/Tema%202/Evidencia%201/)
-- [T2 ---  E2   -----  Problemario](/Tema%202/Evidencia%202/)
-- [ T2   --   E3  --- Eval Escrita](/Tema%202/Evidencia%203/)
+- [T1 - E1 - Mapa Conceptual/presentación](./Evidencia%201/)
+- [T1 - E2 - Problemario](./Evidencia%202/)
+- [T1 - E3 - Eval Escrita](./Evidencia%203/)
 
 
 
