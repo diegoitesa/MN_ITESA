@@ -82,8 +82,7 @@ FinProceso
 ### 📘 Enunciado
 
 Una pequeña población de bacterias crece en un medio nutriente donde la tasa de crecimiento depende tanto del tiempo como del tamaño actual de la población. Este fenómeno puede modelarse mediante la siguiente ecuación diferencial ordinaria:
-
-\[
+```math
 \frac{dy}{dx} = x + y
 \]
 
