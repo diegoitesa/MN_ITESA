@@ -5,7 +5,7 @@
     Aplica los métodos numéricos con el objetivo aproximar y ajustar funciones mediante el método los métodos de interpolación y regresión clásicos.
 
 ## Actividades
-- [T5 - E3 - Programa ](/Tema%205/Evidencia3/)
+- [T5 - E3 - Exposición](/Tema%205/Evidencia%201/)
 - [T5 - E2 - Problemario](./Evidencia%202/)
 - [T5 - E3 - Programa](./Evidencia%203/)
 
