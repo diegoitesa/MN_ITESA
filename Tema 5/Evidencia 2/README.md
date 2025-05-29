@@ -23,4 +23,4 @@
 - Oscar Aaron Delgadillo Fernandez
     - [Código de Correlación](/Tema%205/Evidencia%202/correlacion.java)
 - Brandon García Ordaz
-    - [Código de Interpolación polinómica: Newton](./InterpolacionNewton.java)
+    - [Código de Interpolación polinómica: Newton](./interpolacionNewton.java)
