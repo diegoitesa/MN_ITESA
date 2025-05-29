@@ -43,3 +43,64 @@ Dondes:
 - Ingeniería y física para obtener datos faltantes.
 - Tablas de valores (como logaritmos, funciones trigonométricas).
 - Gráficas y simulaciones numéricas.
+
+---
+
+## 📌 ¿Qué es la interpolación polinómica de Newton?
+
+Es una técnica que permite aproximar el valor de una función mediante un polinomio, usando varios puntos conocidos.  
+A diferencia de la interpolación lineal, **usa más de dos puntos** para mejorar la precisión de la estimación.
+
+🧠 **Idea clave**: Usa diferencias divididas para construir un polinomio que pase por todos los puntos conocidos.
+
+### 📐 Fórmula general del polinomio de Newton
+
+P(x) = f[x₀]  
+     + f[x₀,x₁](x - x₀)  
+     + f[x₀,x₁,x₂](x - x₀)(x - x₁)  
+     + f[x₀,x₁,x₂,x₃](x - x₀)(x - x₁)(x - x₂)  
+     + ...  
+     + f[x₀,x₁,...,xₙ](x - x₀)(x - x₁)...(x - xₙ₋₁)
+
+Donde:
+- f[x₀], f[x₀,x₁], f[x₀,x₁,x₂], etc., son diferencias divididas.
+- Los factores (x - xi) se multiplican en forma progresiva.
+
+### 🔢 ¿Cómo se calculan las diferencias divididas?
+
+- Primera diferencia:  
+  `f[x₀,x₁] = (f(x₁) - f(x₀)) / (x₁ - x₀)`
+
+- Segunda diferencia:  
+  `f[x₀,x₁,x₂] = (f[x₁,x₂] - f[x₀,x₁]) / (x₂ - x₀)`
+
+- Tercera diferencia y siguientes se calculan de la misma forma.
+
+🧠 Cada nueva diferencia usa las anteriores y un punto nuevo.
+
+### 🧠 Pasos para aplicar la interpolación de Newton
+
+1. Anotar todos los puntos conocidos: (x₀, y₀), (x₁, y₁), (x₂, y₂), ...
+2. Calcular las diferencias divididas en una tabla.
+3. Sustituir los valores en la fórmula del polinomio.
+4. Evaluar el polinomio para el valor de x deseado.
+
+### 📝 Ventajas
+
+- Más preciso que el método lineal si se usan más puntos.
+- Útil para construir tablas de interpolación y polinomios personalizados.
+
+### ⚠️ Desventajas
+
+- El cálculo de diferencias divididas puede ser laborioso a mano.
+- Puede volverse inestable si se usan muchos puntos muy separados.
+
+### 📚 Aplicaciones comunes
+
+- Aproximación de funciones complejas con pocos puntos conocidos.
+- Simulación numérica en física, química e ingeniería.
+- Cálculo de valores intermedios en bases de datos experimentales.
+
+---
+
+
