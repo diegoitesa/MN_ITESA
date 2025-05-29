@@ -77,35 +77,41 @@ FinProceso
 ```
 ### 🧾 Código en Java
 
+
 ## 🧪 Caso de Prueba: Ejercicio 1
 
 ### 📘 Enunciado
 
 Una pequeña población de bacterias crece en un medio nutriente donde la tasa de crecimiento depende tanto del tiempo como del tamaño actual de la población. Este fenómeno puede modelarse mediante la siguiente ecuación diferencial ordinaria:
-```math
-\frac{dy}{dx} = x + y
-\]
+
+**Ecuación diferencial:**
+
+    dy/dx = x + y
 
 Donde:
-- \( x \) representa el tiempo en horas,
-- \( y \) representa la cantidad de bacterias (en miles),
-- \( \frac{dy}{dx} \) es la tasa de cambio del tamaño de la población respecto al tiempo.
+- `x` representa el tiempo en horas,
+- `y` representa la cantidad de bacterias (en miles),
+- `dy/dx` es la tasa de cambio del tamaño de la población respecto al tiempo.
 
-Se sabe que al inicio del experimento (cuando \( x = 0 \)), hay exactamente 1000 bacterias, es decir:
+Se sabe que al inicio del experimento (cuando `x = 0`), hay exactamente 1000 bacterias, es decir:
 
-\[
-y(0) = 1.0 \quad (\text{en miles})
-\]
+**Condición inicial:**
 
-Se desea estimar el número de bacterias al cabo de 0.1 horas utilizando el método de un solo paso de Heun simple con paso \( h = 0.1 \).
+    y(0) = 1.0
+
+Se desea estimar el número de bacterias al cabo de 0.1 horas utilizando el método de un solo paso de Heun simple con:
+
+**Paso de integración:**
+
+    h = 0.1
 
 ---
 
 ### 🧾 Datos de Entrada
 
-- **Ecuación:** \( \frac{dy}{dx} = x + y \)
-- **Condición inicial:** \( x_0 = 0.0 \), \( y_0 = 1.0 \)
-- **Paso:** \( h = 0.1 \)
+- **Ecuación:** `dy/dx = x + y`
+- **Condición inicial:** `x0 = 0.0`, `y0 = 1.0`
+- **Paso:** `h = 0.1`
 
 ---
 
@@ -116,7 +122,9 @@ Se desea estimar el número de bacterias al cabo de 0.1 horas utilizando el mét
 | 0.0  | 1.00  |
 | 0.1  | 1.11  |
 
-**Aproximación final de y en x = 0.10:** **1.11**
+**Aproximación final de y en x = 0.10:**
+
+    y(0.1) ≈ 1.11
 
 ---
 
@@ -124,5 +132,9 @@ Se desea estimar el número de bacterias al cabo de 0.1 horas utilizando el mét
 
 - Después de **0.1 horas** (o **6 minutos**), la población pasó de **1000 bacterias** a aproximadamente **1110 bacterias**.
 - Esto representa un crecimiento del **11%** en apenas 6 minutos.
-- La forma de la ecuación \( \frac{dy}{dx} = x + y \) sugiere un crecimiento acelerado, ya que depende tanto del tiempo como de la cantidad actual de bacterias.
+- La forma de la ecuación:
+
+    dy/dx = x + y
+
+sugiere un crecimiento acelerado, ya que depende tanto del tiempo como de la cantidad actual de bacterias.
 
