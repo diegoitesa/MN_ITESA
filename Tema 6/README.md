@@ -6,7 +6,7 @@
 
 ## Actividades
 - [T6 - E1 - Exposición](./Evidencia%201/)
-- [T6 - E2 - Problemario]()
+- [T6 - E2 - Problemario](./Evidencia%202/)
 
 # Apuntes
 
