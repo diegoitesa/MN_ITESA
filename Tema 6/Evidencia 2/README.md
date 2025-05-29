@@ -266,7 +266,7 @@ FinProceso
 
 - [Código de java](MetodoHeun.java)
 
-## 🧪 Caso de Prueba: Ejercicio 1
+## 🧪 Caso de Prueba
 
 ### 📘 Enunciado
 
