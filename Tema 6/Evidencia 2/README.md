@@ -111,12 +111,13 @@ Aproximar la solución en el intervalo t ∈ [0,0.95] con paso h = 0.05
 El método de Euler es una técnica numérica sencilla y directa para resolver ecuaciones diferenciales ordinarias (EDO) de primer orden. Se basa en una aproximación por pasos que utiliza la pendiente de la función en un punto inicial para estimar el valor de la función en puntos sucesivos.
 
 ### Forma General
-   
+   -[Forma](/Tema%206/formaEuler.png)
 ### Formula
-    
+    -[Formula](/Tema%206/formulaEuler.png)
 ### Codigo en Java
-    
+    -[Codigo](/Tema%206/Evidencia%202/EulerODESolver.java)
 ### Pseudocodigo
+```pascal
 Algoritmo Euler2EDOs
         Definir pasos, i Como Entero
         Definir h, tFinal, t, dx, dy Como Real
@@ -152,7 +153,7 @@ Algoritmo Euler2EDOs
             Escribir tiempo[i], " ", solucionX[i], " ", solucionY[i]
     FinPara
 FinAlgoritmo
-
+```
 ### Caso de prueba
 En una habitación con temperatura ambiente de 22 °C, se coloca una taza de café caliente.
 La temperatura del café disminuye con el tiempo según la ley de enfriamiento de Newton:
