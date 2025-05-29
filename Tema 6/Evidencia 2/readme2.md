@@ -72,9 +72,8 @@ Proceso MetodoHeunSimple
     Escribir "x:", x
     Escribir "y:", y
     Esc
-
+    
 ---
 
     Código en Java
 
-    
