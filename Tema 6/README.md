@@ -1,4 +1,4 @@
-# Tema 5
+# Tema 6
     Solución de ecuaciones diferenciales
 
 ## Competencia del tema
