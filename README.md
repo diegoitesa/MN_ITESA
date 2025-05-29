@@ -1,5 +1,12 @@
 # Métodos Numéricos
 
+- [Tema 1](./Tema%201/)
+- [Tema 2](./Tema%202/)
+- [Tema 3](./Tema%203/)
+- [Tema 4](./Tema%204/)
+- [Tema 5](./Tema%205/)
+- [Tema 6](./Tema%206/)
+
 ## 🎯 ¿Qué son los Métodos Numéricos?
 
     Los métodos numéricos son técnicas matemáticas utilizadas para resolver problemas complejos de manera aproximada, cuando no es posible obtener una solución exacta analíticamente.
